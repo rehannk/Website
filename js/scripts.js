@@ -7,7 +7,7 @@ $(document).ready(function () {
       "Dark Theme Coder"
     ],
     typeSpeed:50,
-    backSpeed: 50,
+    backSpeed: 60,
     loop: true
   });
   
