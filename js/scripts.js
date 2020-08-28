@@ -6,9 +6,12 @@ $(document).ready(function () {
       "Coffee Lover",
       "Dark Theme Coder"
     ],
-    typeSpeed:50,
     backSpeed: 60,
-    loop: true
+    smartBackspace: true,
+    backDelay: 1000,
+    startDelay: 1000,
+    typeSpeed: 60,
+    loop: true,
   });
   
   $(window).scroll(function () {
