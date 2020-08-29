@@ -32,6 +32,11 @@ $(document).ready(function () {
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   });
+  
+  $(".navbar-menu > a").click(function () {
+    $(".menu-toggler").removeClass("active");
+    $(".navbar-menu").removeClass("active");
+  });
 
   $(".works").magnificPopup({
     delegate: "a",
