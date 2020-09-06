@@ -13,9 +13,11 @@ $(document).ready(function () {
       if (this.scrollY > 20) {
         $(".navbar").addClass("sticky");
         $(".goTop").fadeIn();
+        $(".hero").fadeOut();
       } else {
         $(".navbar").removeClass("sticky");
         $(".goTop").fadeOut();
+        $(".hero").fadeIn();
       }
     });
   
