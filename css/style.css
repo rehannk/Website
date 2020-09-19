@@ -171,8 +171,8 @@
   /* animation */
 
 .hero .mouse {
-  width: 2.5rem;
-  height: 5rem;
+  width: 1.8rem;
+  height:3.8rem;
   border: 2px solid #86bc25;
   border-radius: 2rem;
   /* margin-bottom: .5rem; */
@@ -191,8 +191,8 @@
 }
 
 .hero .mouse span {
-  width:1rem;
-  height:1rem;
+  width:0.8rem;
+  height:0.8rem;
   background-color: #86bc25;
   display:block;
   border-radius: 50%;
@@ -201,8 +201,8 @@
 }
 
 .hero .arrow span {
-  width:1rem;
-  height:1rem;
+  width:0.8rem;
+  height:0.8rem;
   display: block;
   border: 2px solid transparent;
   border-right-color: #86bc25;
